@@ -1,0 +1,10 @@
+create database student;
+use student;
+create table studentprofile(sid int(5),sname varchar(20),smail varchar2(50),spass varchar2(20));
+create table studentacehivement(sid int(5),sname varchar(20),smail varchar2(50),saward varchar2(20),spublished varchar2(100),sworkshop varchar2(100),sextra varchar2(50),ssports varchar2(50));
+
+
+create database student;
+use student;
+create table studentprofile(sid int(5),sname varchar(20),smail varchar2(50),spass varchar2(20));
+
